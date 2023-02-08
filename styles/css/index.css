@@ -10976,9 +10976,11 @@ footer div svg {
     border-radius: 0;
   }
   header nav {
+    margin-top: 20px;
     justify-content: center;
   }
   header nav svg {
+    padding: 10px;
     width: 80px;
     height: 48px;
   }
@@ -11004,6 +11006,7 @@ footer div svg {
   }
   header nav .burger {
     display: block;
+    padding: 10px;
   }
   header nav .burger.active div:first-child {
     opacity: 0;
@@ -11027,6 +11030,12 @@ footer div svg {
   }
   header nav {
     margin-top: 15px;
+  }
+  header nav svg {
+    padding: 10px;
+  }
+  header nav .burger {
+    padding: 10px;
   }
   .column-content .columns h1, .column-content .columns .h1 {
     margin-bottom: 40px;
