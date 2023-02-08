@@ -10818,6 +10818,45 @@ body {
 }
 
 h1, .h1 {
-  color: red;
+  font-size: 3.25rem;
+}
+
+.rr-secondcontainer {
+  max-width: 1528px;
+}
+
+.rr-thirdcontainer {
+  max-width: 1268px;
+}
+
+header {
+  margin-inline: auto;
   font-family: "DM Sans";
+  position: relative;
+}
+header img {
+  width: 100%;
+  border-radius: 0 0 36px 36px;
+}
+header nav {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  margin-top: 60px;
+}
+header nav svg {
+  width: 118px;
+  height: 64px;
+}
+header nav .nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.column-content {
+  margin-inline: auto;
+  font-family: "DM Sans";
+}
+.column-content h1, .column-content .h1 {
+  font-weight: 400;
 }
