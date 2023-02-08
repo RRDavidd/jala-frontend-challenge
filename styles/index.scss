@@ -105,7 +105,22 @@ header {
 .column-content {
   margin-inline: auto;
   font-family: 'DM Sans';
+
   h1{
     font-weight: 400;
+  }
+  .columns {
+    .left-col {
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .right-col {
+      font-size: 36px;
+      font-weight: 500px;
+      a {
+        font-size: $font-size-base;
+        color: $black;
+      }
+    }
   }
 }

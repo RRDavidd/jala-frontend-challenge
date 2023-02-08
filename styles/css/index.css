@@ -10860,3 +10860,15 @@ header nav .nav-links a {
 .column-content h1, .column-content .h1 {
   font-weight: 400;
 }
+.column-content .columns .left-col {
+  font-size: 24px;
+  font-weight: 700;
+}
+.column-content .columns .right-col {
+  font-size: 36px;
+  font-weight: 500px;
+}
+.column-content .columns .right-col a {
+  font-size: 1rem;
+  color: black;
+}
