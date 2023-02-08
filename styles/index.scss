@@ -133,6 +133,7 @@ header {
 
 .tiles {
   margin-inline: auto;
+  font-weight: 400;
   .divider {
     a {
       color: $black;
@@ -196,4 +197,16 @@ header {
     border-radius: 26.25px;
   }
 
+}
+
+footer {
+  margin-top: 100px;
+  background-color: $primary;
+  div {
+    margin-inline: auto;
+    svg {
+      width: 118px;
+      height: 64px;
+    }
+  }
 }

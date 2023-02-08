@@ -10878,6 +10878,7 @@ header nav .nav-links a {
 
 .tiles {
   margin-inline: auto;
+  font-weight: 400;
 }
 .tiles .divider a {
   color: black;
@@ -10933,4 +10934,16 @@ header nav .nav-links a {
   color: black;
   border-color: #82BC00;
   border-radius: 26.25px;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: #82BC00;
+}
+footer div {
+  margin-inline: auto;
+}
+footer div svg {
+  width: 118px;
+  height: 64px;
 }
