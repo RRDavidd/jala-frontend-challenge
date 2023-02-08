@@ -329,6 +329,15 @@ footer {
     }
   }
 
+  .grid-column {
+    div:first-child {
+      padding: 0;
+    }
+    div:nth-child(2) {
+      padding: 0;
+    }
+  }
+
   .subscribe {
     .subscribe-button {
       margin-top: 20px
