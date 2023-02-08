@@ -63,7 +63,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'DM Sans';
-  word-break: break-all;
 }
 
 h1 {
@@ -168,4 +167,33 @@ header {
       color: $black;
     }
   }
+}
+
+.subscribe {
+  margin-inline: auto;
+  padding: 12px;
+
+  .subscribe-input {
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid 2px black;
+  }
+
+  .subscribe-input:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .subscribe-button {
+    padding: 10px 20px 10px 20px;
+    font-weight: 500;
+    background-color: $primary;
+    color: $black;
+    border-color: $primary;
+    border-radius: 26.25px;
+  }
+
 }
