@@ -10906,9 +10906,15 @@ header .burger div {
   margin-inline: auto;
   padding: 12px;
 }
-.grid-column img {
+.grid-column div img {
   width: 100%;
   height: 100%;
+}
+.grid-column div:first-child {
+  padding-left: 0;
+}
+.grid-column div:nth-child(2) {
+  padding-right: 0;
 }
 .grid-column .quote-block {
   background-color: #82BC00;
@@ -10923,6 +10929,9 @@ header .burger div {
 }
 .grid-column .quote-block a {
   color: black;
+}
+.grid-column .quote-block span {
+  display: block;
 }
 
 .subscribe {
@@ -10963,6 +10972,9 @@ footer div svg {
 }
 
 @media (max-width: 768px) {
+  header figure img {
+    border-radius: 0;
+  }
   header nav {
     justify-content: center;
   }
@@ -11002,10 +11014,13 @@ footer div svg {
   header nav .burger.active div:nth-child(3) {
     transform: translateY(1px) rotate(-45deg);
   }
+  .column-content .columns h1, .column-content .columns .h1 {
+    margin-bottom: 50px;
+  }
 }
 @media (max-width: 425px) {
   h1, .h1 {
-    font-size: 2rem;
+    font-size: 1.85rem;
   }
   p {
     font-size: 1rem;

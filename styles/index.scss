@@ -163,9 +163,18 @@ header {
   margin-inline: auto;
   padding: 12px;
 
-  img {
-    width: 100%;
-    height: 100%;
+  div {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  div:first-child {
+    padding-left: 0;
+  }
+  div:nth-child(2) {
+    padding-right: 0;
   }
 
   .quote-block {
@@ -180,6 +189,9 @@ header {
     }
     a {
       color: $black;
+    }
+    span {
+      display:block;
     }
   }
 }
@@ -228,6 +240,11 @@ footer {
 //responsive
 @media (max-width: $tablet){
   header{
+    figure {
+      img {
+        border-radius: 0;
+      }
+    }
     nav {
       justify-content: center;
       svg {
@@ -270,11 +287,19 @@ footer {
       }
     }
   }
+
+  .column-content {
+    .columns {
+      h1 {
+        margin-bottom: 50px;
+      }
+    }
+  }
 }
 
 @media(max-width: $mobile) {
   h1 {
-    font-size: $font-size-base * 2;
+    font-size: $font-size-base * 1.85;
   }
 
   p {
