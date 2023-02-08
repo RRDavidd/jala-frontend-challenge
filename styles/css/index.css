@@ -10815,6 +10815,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "DM Sans";
 }
 
 h1, .h1 {
@@ -10831,7 +10832,6 @@ h1, .h1 {
 
 header {
   margin-inline: auto;
-  font-family: "DM Sans";
   position: relative;
 }
 header img {
@@ -10855,7 +10855,6 @@ header nav .nav-links a {
 
 .column-content {
   margin-inline: auto;
-  font-family: "DM Sans";
 }
 .column-content h1, .column-content .h1 {
   font-weight: 400;
@@ -10871,4 +10870,15 @@ header nav .nav-links a {
 .column-content .columns .right-col a {
   font-size: 1rem;
   color: black;
+}
+
+.tiles {
+  margin-inline: auto;
+}
+.tiles .divider a {
+  color: black;
+}
+.tiles img {
+  width: 100%;
+  border-radius: 16px;
 }
