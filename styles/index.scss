@@ -92,21 +92,25 @@ header {
     width: 100%;
     top: 0;
     margin-top: 60px;
-
     svg {
       width: 118px;
       height: 64px;
     }
     .nav-links {
       a {
+        margin-left: 50px;
         text-decoration: none;
         color: $white;
+      }
+      a:hover {
+        color: $primary;
       }
     }
   }
 
   .burger {
     display: none;
+    cursor: pointer;
     div {
       background-color: white;
       width: 20px;
@@ -231,12 +235,38 @@ footer {
         height: 48px;
       }
       .nav-links {
+        background-color: $primary;
+        color: $white;
+        position: fixed;
+        left: -100%;
+        top: 0px;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
         a {
-          display: none;
+          margin: 40px 0;
         }
+        a:hover {
+          color: $black;
+        }
+      }
+      .nav-links.active {
+        left: 0;
       }
       .burger {
         display: block;
+      }
+      .burger.active {
+        div:first-child{
+          opacity: 0;
+        }
+        div:nth-child(2) {
+          transform: translateY(5px) rotate(45deg);
+        }
+        div:nth-child(3) {
+          transform: translateY(1px) rotate(-45deg);
+        }
       }
     }
   }
