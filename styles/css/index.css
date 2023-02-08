@@ -10816,6 +10816,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "DM Sans";
+  word-break: break-all;
 }
 
 h1, .h1 {
@@ -10855,9 +10856,13 @@ header nav .nav-links a {
 
 .column-content {
   margin-inline: auto;
+  padding: 12px;
 }
 .column-content h1, .column-content .h1 {
   font-weight: 400;
+}
+.column-content .columns h1, .column-content .columns .h1 {
+  margin-bottom: 80px;
 }
 .column-content .columns .left-col {
   font-size: 24px;
@@ -10881,4 +10886,27 @@ header nav .nav-links a {
 .tiles img {
   width: 100%;
   border-radius: 16px;
+}
+
+.grid-column {
+  margin-inline: auto;
+  padding: 12px;
+}
+.grid-column img {
+  width: 100%;
+  height: 100%;
+}
+.grid-column .quote-block {
+  background-color: #82BC00;
+  border-radius: 16px;
+  padding: 70px;
+}
+.grid-column .quote-block h1, .grid-column .quote-block .h1 {
+  max-width: 700px;
+}
+.grid-column .quote-block p {
+  font-weight: 700;
+}
+.grid-column .quote-block a {
+  color: black;
 }
