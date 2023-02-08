@@ -10988,6 +10988,9 @@ footer div svg {
   .subscribe .subscribe-button {
     margin-top: 20px;
   }
+  .footer div {
+    flex-direction: column;
+  }
 }
 @media (max-width: 239px) {
   * {
